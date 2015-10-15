@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM fedora:latest
 
 MAINTAINER olaf radicke o.ricke@meteocontol.de
 
