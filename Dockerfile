@@ -1,3 +1,4 @@
+
 FROM fedora:latest
 
 MAINTAINER olaf radicke o.ricke@meteocontol.de
@@ -9,4 +10,4 @@ VOLUME ["/etc/nginx/default.d/", "/etc/nginx/ssl"]
 
 EXPOSE 80 443
 
-CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
+CMD ["/usr/sbin/nginx"]
