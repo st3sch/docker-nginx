@@ -15,4 +15,4 @@ VOLUME ["/var/log/nginx"]
 EXPOSE 80
 EXPOSE 443
 
-CMD ["/usr/sbin/nginx"]
+CMD ["/usr/sbin/nginx", "-g", "daemon off;"]
